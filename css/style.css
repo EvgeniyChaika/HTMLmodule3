@@ -29,7 +29,11 @@ header {
     background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
     margin-bottom: 40px;
 }
-
+.menu ul{
+    font-size:0;
+    line-height: 0;
+    letter-spacing: -1px;
+}
 .menu li {
     background: inherit;
     display: inline-block;
@@ -38,10 +42,11 @@ header {
 .menu li a {
     color: #c8c8c8;
     display: block;
-    padding: 12px 22px;
+    padding: 10px 42px;
     font-family: OpenSans, sans-serif;
     font-size: 15px;
-    line-height: 16px;
+    line-height: normal;
+    letter-spacing: normal;
     font-weight: 400;
 }
 
@@ -53,11 +58,10 @@ header {
     background: linear-gradient(0deg, #2e2e2e 0%, #4a4a4a 100%);
     border-left: 1px solid rgb(101, 99, 99);
     border-right: 1px solid rgb(101, 99, 99);
-    padding: 12px 21px;
+    padding: 10px 41px;
 }
 
 .nav-menu ul {
-    display: block;
     float: left;
 }
 
@@ -87,24 +91,26 @@ header {
     padding: 44px 88px;
     float: right;
     border: 1px solid #c8c8c8;
+
 }
 
 .content {
     margin-left: 290px;
-    margin-bottom: 60px;
+    width: 680px;
+    position: relative;
 }
 
-.content-text {
+.content p{
     display: inline-block;
-    margin: 40px 31px 0 24px;
+    padding: 40px 30px 60px 24px;
     font-size: 13px;
     line-height: 22px;
     font-family: OpenSans, sans-serif;
     font-weight: 400;
     color: #2c2b2b;
     text-align: left;
+    word-wrap: break-word;
 }
-
 .footer {
     background-color: #e1e1e1;
     margin-bottom: 60px;
